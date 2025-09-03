@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.endlight.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "RubberSaplingPlantMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
